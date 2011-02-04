@@ -1,0 +1,19 @@
+style "menu"
+{
+xthickness            = 7
+ythickness            = 5
+
+  engine "pixmap"
+  {
+    image
+    {
+      function            = BOX
+      recolorable        = FALSE
+      detail                = "menu"
+      file                = "menu.png"
+      border            = { 10, 10, 10, 10 }
+      stretch            = TRUE
+    }
+  }
+}
+class "GtkMenu"                   style "menu"

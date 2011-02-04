@@ -1,0 +1,104 @@
+##########################################
+# MPlayer configuration file             #
+# Author: Xu Xiaodong (xxdlhy@gmail.com) #
+##########################################
+
+
+##################
+# video settings #
+##################
+
+# Specify default video driver (see -vo help for a list).
+vo=gl2:yuv=5,xv
+
+dr=yes
+
+vf-pre=pp=ac
+
+# Take screenshot
+vf=screenshot
+
+# Start in fullscreen mode by default.
+fs=yes
+
+# Keep the player window on top of all other windows.
+#ontop=yes
+
+
+##################
+# audio settings #
+##################
+
+# Specify default audio driver (see -ao help for a list).
+ao=alsa
+
+# Specify default audio track.
+alang=chi
+
+#aid=1
+
+#####################
+# subtitle settings #
+#####################
+
+fontconfig=yes
+font='Adobe Heiti Std'
+
+# Specify subtitle codepage.
+subcp=enca:zh:utf8
+#subcp=cp936
+#subcp=cp950
+
+# Handle the subtitle file as UTF-8.
+#utf8=yes
+
+# Specify a priority of subtitle language to use.
+slang=chs,chi,cht,zh,eng,en
+
+# Adjust matching fuzziness when searching for subtitles:
+# 0    exact match
+# 1    Load all subs containing movie name.
+# 2    Load all subs in the current directory.
+sub-fuzziness=1
+
+# Turn on SSA/ASS subtitle rendering. 
+ass=1
+
+# Enables extraction of Matroska embedded fonts.
+embeddedfonts=1
+
+# Sets the autoscale mode. The mode can be:
+# 0    no autoscale
+# 1    proportional to movie height
+# 2    proportional to movie width
+# 3    proportional to movie diagonal (default)
+subfont-autoscale=2
+
+# Sets the subtitle text autoscale coefficient as percentage of the screen size.
+subfont-text-scale=6.5
+
+# Resample the font alphamap.
+# 0     plain white fonts
+# 0.75  very narrow black outline (default)
+# 1     narrow black outline
+# 10    bold black outline
+ffactor=0.75
+
+# Specifies which mode the OSD should start in.
+# 0    subtitles only
+# 1    volume + seek (default)
+# 2    volume + seek + timer + percentage
+# 3    volume + seek + timer + percentage + total time
+osdlevel=3
+
+##################
+# other settings #
+##################
+
+# Drop frames to preserve audio/video sync.
+framedrop=yes
+
+# Turns off xscreensaver at startup and turns it on again on exit.
+stop-xscreensaver=yes
+
+#quiet=yes

@@ -1,1 +1,6 @@
-/home/xiaodong/.gitconfig
+[github]
+	user = xuxiaodong
+	token = 93d9bad539f0b4f34af470fdcc1b840d
+[user]
+	name = Xiaodong Xu
+	email = xxdlhy@gmail.com

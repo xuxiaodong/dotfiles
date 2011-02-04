@@ -1,1 +1,0 @@
-/home/xiaodong/.i3

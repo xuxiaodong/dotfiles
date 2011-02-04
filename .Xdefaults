@@ -1,1 +1,266 @@
-/home/xiaodong/.Xdefaults
+! ------------------------------------------------------------------------------
+! file:         ~/.Xdefaults
+! author:       Xu Xiaodong <xxdlhy AT gmail.com>
+! modified:     14/01/09 15:32:11  
+! ------------------------------------------------------------------------------
+
+
+! Xft settings
+
+Xft.dpi:                        96
+Xft.antialias:                  true 
+Xft.hinting:                    false
+! hintnone | hintslight | hintmedium | hintfull
+Xft.hintstyle:                  hintslight
+Xft.autohint:                   false
+Xft.rgba:                       rgb
+! lcdnone | lcddefault | lcdlight | lcdlegacy
+Xft.lcdfilter:                  lcdlight
+
+
+! Cursor theme settings
+
+Xcursor.theme:                  Neutral_Plus 
+Xcursor.size:                   10
+
+
+! URxvt settings
+
+!URxvt*font:                     xft:Droid Sans Mono:size=10:antialias=true,xft:Droid Sans Fallback:size=10:antialias=true
+!URxvt*boldFont:                 xft:Droid Sans Mono:size=10:antialias=true,xft:Droid Sans Fallback:size=10:antialias=true
+!URxvt*italicFont:               xft:Droid Sans Mono:size=10:antialias=true,xft:Droid Sans Fallback:size=10:antialias=true
+!URxvt*bolditalicFont:           xft:Droid Sans Mono:size=10:antialias=true,xft:Droid Sans Fallback:size=10:antialias=true
+!URxvt.font:                     xft:DejaVu Sans Mono:size=10:hinting=true:antialias=true,xft:Droid Sans Fallback:size=10:antialias=true
+!URxvt.boldFont:                 xft:DejaVu Sans Mono:size=10:bold:hinting=true:antialias=true,xft:Droid Sans Fallback:size=10:antialias=true
+!URxvt*italicFont:               xft:DejaVu Sans Mono:size=10:italic:autohint=true:hinting=true:antialias=true,xft:Droid Sans Fallback:size=10:antialias=true
+!URxvt*bolditalicFont:           xft:DejaVu Sans Mono:size=10:bold:italic:autohint=true:hinting=true:antialias=true,xft:Droid Sans Fallback:size=10:antialias=true
+!URxvt.font:                     xft:Mensch:size=10:hinting=true:antialias=true,xft:Droid Sans Fallback:size=10:antialias=true
+!URxvt.boldFont:                 xft:Mensch:size=10:bold:hinting=true:antialias=true,xft:Droid Sans Fallback:size=10:antialias=true
+!URxvt*italicFont:               xft:Mensch:size=10:italic:autohint=true:hinting=true:antialias=true,xft:Droid Sans Fallback:size=10:antialias=true
+!URxvt*bolditalicFont:           xft:Mensch:size=10:bold:italic:autohint=true:hinting=true:antialias=true,xft:Droid Sans Fallback:size=10:antialias=true
+!URxvt.font:                     xft:Envy Code R:size=10:hinting=true:antialias=true,xft:Droid Sans Fallback:size=10:antialias=true
+!URxvt.boldFont:                 xft:Envy Code R:size=10:bold:hinting=true:antialias=true,xft:Droid Sans Fallback:size=10:antialias=true
+!URxvt*italicFont:               xft:Envy Code R:size=10:italic:autohint=true:hinting=true:antialias=true,xft:Droid Sans Fallback:size=10:antialias=true
+!URxvt*bolditalicFont:           xft:Envy Code R:size=10:bold:italic:autohint=true:hinting=true:antialias=true,xft:Droid Sans Fallback:size=10:antialias=true
+!URxvt.font:                     xft:Inconsolata:size=12:hinting=true,xft:Droid Sans Fallback:size=10:antialias=true
+!URxvt.boldFont:                 xft:Inconsolata:size=12:bold:hinting=true,xft:Droid Sans Fallback:size=10:antialias=true
+!URxvt*italicFont:               xft:Inconsolata:size=12:italic:autohint=true:hinting=true,xft:Droid Sans Fallback:size=10:antialias=true
+!URxvt*bolditalicFont:           xft:Inconsolata:size=12:bold:italic:autohint=true:hinting=true,xft:Droid Sans Fallback:size=10:antialias=true
+URxvt.font:                     xft:terminus:size=10,xft:wenquanyi bitmap song:size=9
+URxvt.boldFont:                 xft:terminus:size=10:bold,xft:wenquanyi bitmap song:size=9:bold
+URxvt.italicFont:               xft:terminus:size=10:italic,xft:wenquanyi bitmap song:size=9:italic
+URxvt.bolditalicFont:           xft:terminus:size=10:bold:italic,xft:wenquanyi bitmap song:size=9:bold:italic
+URxvt.background:	            rgba:1111/1111/1111/dddd
+!URxvt.foreground:	            #bfbfbf
+!URxvt.termName:                string
+URxvt.geometry:                 80x25
+!URxvt.reverseVideo:            true
+URxvt.loginShell:               true
+!URxvt.jumpScroll:              boolean
+!URxvt.skipScroll:              boolean
+!URxvt.pastableTabs:            boolean
+URxvt*scrollBar:	            false
+!URxvt.scrollstyle:              plain
+!URxvt.scrollBar_right:          true
+!URxvt.scrollBar_floating:       true
+!URxvt.scrollBar_align:         mode
+!URxvt.thickness:                5
+!URxvt.scrollTtyOutput:         boolean
+!URxvt.scrollTtyKeypress:       boolean
+!URxvt.scrollWithBuffer:        boolean
+!URxvt.inheritPixmap:            true
+URxvt.transparent:              true
+!URxvt.tintColor:                black
+!URxvt.shading:                  75
+!URxvt.fading:                   20
+!URxvt.fadeColor:                #222222
+!URxvt.fadeColor:                grey
+!URxvt.utmpInhibit:             boolean
+URxvt.urgentOnBell:             true
+!URxvt.visualBell:               true
+!URxvt.mapAlert:                boolean
+!URxvt.meta8:                   boolean
+URxvt.mouseWheelScrollPage:     true
+!URxvt.tripleclickwords:        boolean
+!URxvt.insecure:                boolean
+!URxvt.cursorUnderline:         boolean
+URxvt.cursorBlink:              false
+!URxvt.pointerBlank:            boolean
+!URxvt.colorBD:                 color
+!URxvt.colorIT:                 color
+!URxvt.colorUL:                  #86a2be
+!URxvt.colorRV:                 color
+!URxvt.underlineColor:          color
+!URxvt.scrollColor:             color
+!URxvt.troughColor:             color
+!URxvt.highlightColor:          color
+!URxvt.cursorColor:              #67b8cb
+!URxvt.cursorColor:              #0066ff
+!URxvt.cursorColor:              #7c8c8a
+URxvt.cursorColor:              #dcdccc
+!URxvt.cursorColor:             #7a5ada
+!URxvt.cursorColor:             #f57900
+!URxvt.cursorColor2:            color
+!URxvt.pointerColor:            #67b8cb
+!URxvt.pointerColor:            #7a5ada
+!URxvt.pointerColor2:           color
+!URxvt.borderColor:             color
+!URxvt.intensityStyles:         true
+!URxvt.inputMethod:             name
+URxvt.preeditType:              Root
+!URxvt.imLocale:                string
+!URxvt.imFont:                  fontname
+URxvt.title:                    URxvt
+!URxvt.iconName:                string
+URxvt.saveLines:                65535
+!URxvt.depth:                   32
+!URxvt.transient-for:           windowid
+!URxvt.override-redirect:       boolean
+!URxvt.hold:                    boolean
+URxvt.externalBorder:           0
+!URxvt.internalBorder:           8
+!URxvt.internalBorder:           6
+URxvt.internalBorder:           5
+!URxvt.borderLess:              true
+!URxvt.skipBuiltinGlyphs:       boolean
+!URxvt.lineSpace:               5
+!URxvt.pointerBlankDelay:       number
+!URxvt.backspacekey:            string
+!URxvt.deletekey:               string
+!URxvt.selectstyle:             mode
+!URxvt.print-pipe:              string
+!URxvt.modifier:                modifier
+URxvt.cutchars:                 "()*,<>[]{}|'
+!URxvt.answerbackString:        string
+!URxvt.secondaryScreen:         boolean
+URxvt.secondaryScroll:          true
+URxvt.perl-lib:                 /usr/lib/urxvt/perl/
+!URxvt.perl-eval:               perl-eval
+URxvt.perl-ext-common:          default,matcher
+!URxvt.perl-ext:                string
+URxvt.matcher.button:           1
+URxvt.matcher.pattern.1:        \\bwww\\.[\\w-]+\\.[\\w./?&@#-]*[\\w/-]
+!URxvt.urlLauncher:              firefox
+URxvt.urlLauncher:              urxvt-to-uzbl.sh
+!URxvt.iso14755_52:             boolean
+!URxvt*keysym.sym:              keysym
+
+
+! Tangoesque scheme
+
+*background:                    #111111
+*foreground:                    #babdb6
+! Black
+*color0:                        #000000
+*color8:                        #555753
+! Red
+*color1:                        #ff6565
+*color9:                        #ff8d8d
+! Green
+*color2:                        #93d44f
+*color10:                       #c8e7a8
+! Yellow
+*color3:                        #eab93d
+*color11:                       #ffc123
+! Blue
+*color4:                        #204a87
+*color12:                       #3465a4
+! Mangenta
+*color5:                        #ce5c00
+*color13:                       #f57900
+! Cyan 
+*color6:                        #89b6e2
+*color14:                       #46a4ff
+! White
+*color7:                        #cccccc
+*color15:                       #ffffff
+
+
+! Zenburn
+!*background:  #3f3f3f
+!*foreground:  #dcdccc
+! black + red
+!*color0:     #3f3f3f
+!*color0:      #1E2320
+!*color1:      #705050
+! green + yellow
+!*color2:      #60b48a
+!*color3:      #dfaf8f
+! blue + purple
+!*color4:      #506070
+!*color5:      #dc8cc3
+! cyan + white
+!*color6:      #8cd0d3
+!*color7:      #dcdccc
+! bright-black + bright-red
+!*color8:      #709080
+!*color9:      #dca3a3
+! bright-green + bright-yellow
+!*color10:     #c3bf9f
+!*color11:     #f0dfaf
+! bright-blue + bright-purple
+!*color12:     #94bff3
+!*color13:     #ec93d3
+! bright-cyan + bright-white
+!*color14:     #93e0e3
+!*color15:     #ffffff
+
+
+! Emacs settings
+
+emacs.FontBackend: xft
+!emacs.font: Droid Sans Mono 10 
+emacs.font: terminus 10
+
+
+! Dzen2 settings
+
+!dzen2.font:       -artwiz-nu-medium-r-normal--11-110-75-75-p-90-iso10646-1
+!dzen2.foreground: #22EE11
+!dzen2.background: black
+
+
+! Xcalc settings
+
+xcalc*geometry:                         200x275
+xcalc.ti.bevel.background:              #111111
+xcalc.ti.bevel.screen.background:       #000000
+xcalc.ti.bevel.screen.DEG.background:   #000000
+xcalc.ti.bevel.screen.DEG.foreground:   LightSeaGreen
+xcalc.ti.bevel.screen.GRAD.background:  #000000
+xcalc.ti.bevel.screen.GRAD.foreground:  LightSeaGreen
+xcalc.ti.bevel.screen.RAD.background:   #000000
+xcalc.ti.bevel.screen.RAD.foreground:   LightSeaGreen
+xcalc.ti.bevel.screen.INV.background:   #000000
+xcalc.ti.bevel.screen.INV.foreground:   Red
+xcalc.ti.bevel.screen.LCD.background:   #000000
+xcalc.ti.bevel.screen.LCD.foreground:   LightSeaGreen
+xcalc.ti.bevel.screen.LCD.shadowWidth:  0
+xcalc.ti.bevel.screen.M.background:     #000000
+xcalc.ti.bevel.screen.M.foreground:     LightSeaGreen
+xcalc.ti.bevel.screen.P.background:     #000000
+xcalc.ti.bevel.screen.P.foreground:     Yellow
+xcalc.ti.Command.foreground:            White
+xcalc.ti.Command.background:            #777777
+xcalc.ti.button5.background:            Orange3
+xcalc.ti.button19.background:           #611161
+xcalc.ti.button18.background:           #611161
+xcalc.ti.button20.background:           #611111
+xcalc.ti.button25.background:           #722222
+xcalc.ti.button30.background:           #833333
+xcalc.ti.button35.background:           #944444
+xcalc.ti.button40.background:           #a55555
+xcalc.ti.button22.background:           #222262
+xcalc.ti.button23.background:           #222262
+xcalc.ti.button24.background:           #222272
+xcalc.ti.button27.background:           #333373
+xcalc.ti.button28.background:           #333373
+xcalc.ti.button29.background:           #333373
+xcalc.ti.button32.background:           #444484
+xcalc.ti.button33.background:           #444484
+xcalc.ti.button34.background:           #444484
+xcalc.ti.button37.background:           #555595
+xcalc.ti.button38.background:           #555595
+xcalc.ti.button39.background:           #555595
+!XCalc*Cursor:                          hand2
+!XCalc*ShapeStyle:                      rectangle

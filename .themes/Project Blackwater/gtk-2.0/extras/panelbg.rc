@@ -1,0 +1,15 @@
+style "panelbg"
+{
+  #ythickness = 2
+  bg_pixmap[NORMAL] = "panelbg.png" 
+}
+class "*Panel*" style "panelbg"
+class "*notif*" style "panelbg"
+class "*Notif*" style "panelbg"
+class "*Tray*" style "panelbg"
+class "*tray*" style "panelbg"
+class "*Netstatus*" style "panelbg"
+class "*netstatus*" style "panelbg"
+class "*Deskbar*" style "panelbg"
+class "*deskbar*" style "panelbg"
+widget_class "*Panel*" style "panelbg"

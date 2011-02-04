@@ -1,1 +1,63 @@
-/home/xiaodong/.gtkrc.mine
+#---------------------------------------------------------------------------------------
+# File:         .gtkrc.mine                                                           --
+# Author:       Xu Xiaodong (http://linuxtoy.org)                                     --
+# Last modfied: 03/02/11 15:52:27                                                     --
+# See also:     http://awesome.naquadah.org/wiki/index.php?title=Customizing_GTK_Apps --
+#---------------------------------------------------------------------------------------
+
+
+# gtk themes
+
+# include '/home/xiaodong/.themes/BlackWhite/gtk-2.0/gtkrc'
+# include '/home/xiaodong/.themes/Dyne/gtk-2.0/gtkrc'
+# include '/home/xiaodong/.themes/Fawn/gtk-2.0/gtkrc'
+include '/home/xiaodong/.themes/gtkShit/gtk-2.0/gtkrc'
+# include '/home/xiaodong/.themes/MinimumWhiteSuiteContrasted/gtk-2.0/gtkrc'
+# include '/home/xiaodong/.themes/naos/gtk-2.0/gtkrc'
+# include '/home/xiaodong/.themes/noon/gtk-2.0/gtkrc'
+# include '/home/xiaodong/.themes/Orange/gtk-2.0/gtkrc'
+# include '/home/xiaodong/.themes/Retrouble/gtk-2.0/gtkrc'
+# include '/home/xiaodong/.themes/Wobachi/gtk-2.0/gtkrc'
+
+
+# icon themes
+
+# gtk-icon-theme-name = "Buuf-Deuce"
+# gtk-icon-theme-name = "gnome-dust"
+# gtk-icon-theme-name = "gnome-human"
+gtk-icon-theme-name = "gnome-wine"
+# gtk-icon-theme-name = "gnome-wise"
+# gtk-icon-theme-name = "Tango"
+
+
+# cursor themes
+
+gtk-cursor-theme-name = "Neutral_Plus"
+
+
+# fonts
+
+style "user-font" {
+    font_name = "DejaVu Sans Condensed 10"
+}
+widget_class "*" style "user-font"
+
+gtk-font-name = "DejaVu Sans Condensed 10"
+
+
+# toolbars
+
+gtk-toolbar-style = GTK_TOOLBAR_ICONS        # Only icons
+# gtk-toolbar-style = GTK_TOOLBAR_TEXT	     # Only text
+# gtk-toolbar-style = GTK_TOOLBAR_BOTH	     # Both icons and text
+# gtk-toolbar-style = GTK_TOOLBAR_BOTH_HORIZ # Icons and text next to the icons
+
+
+# icon size
+
+gtk-toolbar-icon-size = GTK_ICON_SIZE_SMALL_TOOLBAR
+
+
+# make menus faster
+
+gtk-menu-popup-delay = 0

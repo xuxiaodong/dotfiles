@@ -1,1 +1,17 @@
-/home/xiaodong/.conkyrc
+##################################################
+#
+# File:           .conkyrc
+# Maintainer:     Xu Xiaodong <xxdlhy@gmail.com>
+# Last modified:  04/02/11 16:49:43 
+#
+##################################################
+
+
+background no
+cpu_avg_samples 2
+out_to_console yes
+total_run_times 0
+update_interval 1.0
+
+TEXT
+^i(/home/xiaodong/.dico/cpu.xpm) ^fg(\#DCA3A3)${cpu}% ${cpubar 10,5} ^i(/home/xiaodong/.dico/mem.xpm) ^fg(\#8FAF9F)${memperc}% ${membar 10,5} ^i(/home/xiaodong/.dico/up.xpm) ^fg(\#8CD0D3)${upspeedf eth0} ^i(/home/xiaodong/.dico/down.xpm) ${downspeedf eth0} ^i(/home/xiaodong/.dico/mail.xpm) ^fg(\#EFEFEF)${execi 180 perl ~/bin/gmailcount.pl} ^i(/home/xiaodong/.dico/rss.xpm) ^fg(\#EFEFEF)${execi 180 perl ~/bin/greadercount.pl} ^i(/home/xiaodong/.dico/pacman.xpm) ^fg(\#EFEFEF)${execi 3600 perl ~/bin/ggadcheck.pl} ^i(/home/xiaodong/.dico/temp.xpm) ^fg(\#CC9393)${execi 36363600 python ~/bin/conkyForecast.py -l CHXX0098} ^i(/home/xiaodong/.dico/time.xpm) ^fg(\#F0DFAF)${time %a, %b %d / %T} 

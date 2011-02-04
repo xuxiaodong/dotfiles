@@ -1,0 +1,4 @@
+//Project Blackwater
+
++Minimalistic theme for gtk and emerald.
++Inspired by Mac Hud, Amana Suite, and Wobachi.

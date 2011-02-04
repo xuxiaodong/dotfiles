@@ -1,1 +1,81 @@
-/home/xiaodong/.apvlvrc
+""""""""""""""""""""""""""""""""""""""""""""""""""
+"
+" File:           .apvlvrc
+" Maintainer:     Xu Xiaodong <xxdlhy@gmail.com>
+" Last modified:  04/02/11 16:49:43 
+"
+""""""""""""""""""""""""""""""""""""""""""""""""""
+
+
+" some map
+
+" map n to <C-f> to goto next page
+map n <C-f>
+
+" and p to prepage
+map p <C-b>
+
+" map I to zi, and O to zo
+map I zi
+map O zo
+
+map h H
+map m M
+map l L
+
+" default fullscreen
+"set fullscreen=no
+
+" default zoom
+" zoom has 4 styles
+" a float type number
+" fitwidth
+" fitheight
+" normal
+set zoom=2.2
+
+" set window size
+"set width=800
+"set height=600
+
+" set command timeout between two key press 
+set commandtimeout=2000
+
+" set default dir
+set defaultdir=/home/xiaodong/book
+
+" set if use content view ad first
+set content=no
+
+" set a pdf page continuous or not
+set continuous=no
+
+" set a pad to continuous page
+"set continuouspad=2
+
+" set if auto scroll page when at the end or begin of one pdf page
+set autoscrollpage=no
+
+" set if auto scroll doc from 1st page when goto the last page
+"set autoscrolldoc=no
+
+" set if disable ~/.apvlvinfo, default is no
+"set noinfo=no
+
+" set pdf object cache size
+set pdfcache = 8
+
+" set if use right and bottom scrollbar
+set scrollbar = no
+
+" set if use visual mode to select and copy text
+set visualmode = no
+
+" set if wrapscan text
+"set wrapscan = yes
+
+" set double click action
+" option value is 'word', 'line' or 'page'
+"set doubleclick = word
+
+" vim: set ft=config:
