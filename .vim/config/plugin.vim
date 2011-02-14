@@ -31,9 +31,6 @@ augroup mkd
     autocmd BufRead *.markdown set ai formatoptions=tcroqn2 comments=n:>
 augroup END
 
-" TwitVim
-"let twitvim_login = "xuxiaodong:l9x8h2#d"
-
 " Mail
 "autocmd BufRead ~/.mutt/temp/mutt*   :source ~/.vim/config/mail.vim
 
